@@ -6,7 +6,7 @@ export default function Login() {
   const [message, setMessage] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({ ...formData,  [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
